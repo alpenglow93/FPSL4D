@@ -638,6 +638,10 @@ PrefabInstance:
       propertyPath: CameraPosition
       value: 
       objectReference: {fileID: 1822096209}
+    - target: {fileID: 3761788117105507642, guid: 4068868f01dbc3c479620bcd955ff528, type: 3}
+      propertyPath: MouseSensitivity
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3761788118491630448, guid: 4068868f01dbc3c479620bcd955ff528, type: 3}
       propertyPath: m_Name
       value: Camera

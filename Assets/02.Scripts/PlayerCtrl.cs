@@ -113,7 +113,7 @@ public class PlayerCtrl : MonoBehaviour
         //카메라 위 아래
         var turnCam = -Input.GetAxis("Mouse Y");
         turnCam = turnCam * MouseSensitivity;
-        m_VerticalAngle = Mathf.Clamp(turnCam + m_VerticalAngle, -89.0f, 89.0f);
+        m_VerticalAngle = Mathf.Clamp(turnCam + m_VerticalAngle, -89.0f, 70.0f);
         currentAngles = CameraPosition.transform.localEulerAngles;
         currentAngles.x = m_VerticalAngle;
         CameraPosition.transform.localEulerAngles = currentAngles;
